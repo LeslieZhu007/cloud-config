@@ -29,4 +29,4 @@ eureka:
 test:
   redis:
     host: localhost
-    port: 10004
+    port: 10005
