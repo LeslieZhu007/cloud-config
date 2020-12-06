@@ -4,7 +4,7 @@ spring:
   application:
     name: user-service
   datasource:
-    url: jdbc:mysql://192.168.200.151:3306/cloud_user
+    url: jdbc:mysql://mysql1:3306/cloud_user
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
@@ -18,7 +18,7 @@ logging:
 eureka:
   client:
     service-url: # EurekaServer地址
-      defaultZone: http://127.0.0.1:10086/eureka/
+      defaultZone: http://eueka:10086/eureka/
   instance:
     ip-address: 127.0.0.1 # ip地址
     prefer-ip-address: true # 更倾向于使用ip，而不是host名
